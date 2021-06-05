@@ -3,7 +3,7 @@
   "files": [
     "dist"
   ],
-  "version": "0.0.4",
+  "version": "0.0.6",
   "main": "./dist/vuewind.umd.js",
   "module": "./dist/vuewind.es.js",
   "exports": {

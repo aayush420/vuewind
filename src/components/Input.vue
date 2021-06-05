@@ -1,13 +1,22 @@
 <template>
-  <input class="outline-none bg-indigo-100 text-indigo-900 p-2 rounded focus:bg-indigo-200" />
+    <input
+        class="
+            outline-none
+            border border-gray-300
+            bg-white
+            py-1
+            px-3
+            mt-1
+            rounded
+            shadow
+            focus:bg-indigo-200
+        "
+    />
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>
