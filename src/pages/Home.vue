@@ -13,6 +13,12 @@
             <VRadio name="radio1" />
             <VRadio name="radio1" />
         </div>
+        <div class="p-2 m-2 shadow inline-block">
+            <VCheck name="check1" />
+            <VCheck name="check1" />
+            <VCheck name="check1" />
+            <VCheck name="check1" />
+        </div>
     </div>
 </template>
 
@@ -24,14 +30,16 @@ import VInput from "../components/Input.vue";
 import VSelect from "../components/Select.vue";
 import VCard from "../components/Card.vue";
 import VRadio from "../components/Radio.vue";
+import VCheck from "../components/Check.vue";
 export default {
     components: {
         HelloWorld,
         VAlert,
         VButton,
+        VCard,
+        VCheck,
         VInput,
         VSelect,
-        VCard,
         VRadio,
     },
     methods: {

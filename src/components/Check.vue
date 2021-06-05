@@ -11,7 +11,7 @@
         "
     >
         <input
-            type="radio"
+            type="checkbox"
             class="
                 mr-2
                 focus:ring-indigo-500
