@@ -1,13 +1,16 @@
 {
   "name": "@aayush420/vuewind",
-  "files": ["dist"],
-  "version": "0.0.2",
+  "files": [
+    "dist"
+  ],
+  "version": "0.0.4",
   "main": "./dist/vuewind.umd.js",
   "module": "./dist/vuewind.es.js",
   "exports": {
     ".": {
       "import": "./dist/vuewind.es.js",
-      "require": "./dist/vuewind.umd.js"
+      "require": "./dist/vuewind.umd.js",
+      "css": "./dist/style.css"
     }
   },
   "scripts": {
@@ -21,6 +24,9 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.3",
     "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.4",
     "vite": "^2.3.5"
   }
 }

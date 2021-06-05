@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.v-button {
+    margin-bottom: 10px;
+    @apply text-white bg-indigo-500 border-0 py-2 px-6 rounded;
+    /* focus:outline-none active:bg-indigo-700 */
+}
+.v-button:hover {
+    @apply bg-indigo-600;
+}
+.v-button:focus {
+    @apply outline-none;
+}
+.v-button:active{
+    @apply bg-indigo-700;
+}
