@@ -7,8 +7,8 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'lib/main.js'),
-      name: 'MyLib'
+      entry: path.resolve(__dirname, 'src/lib/main.js'),
+      name: 'VueWind'
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

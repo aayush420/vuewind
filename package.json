@@ -1,5 +1,15 @@
 {
-  "version": "0.0.0",
+  "name": "@aayush420/vuewind",
+  "files": ["dist"],
+  "version": "0.0.2",
+  "main": "./dist/vuewind.umd.js",
+  "module": "./dist/vuewind.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vuewind.es.js",
+      "require": "./dist/vuewind.umd.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
