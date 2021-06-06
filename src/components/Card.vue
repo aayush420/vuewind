@@ -4,6 +4,9 @@
         <div class="">
             Card description goes here ..<br />One more line goes here ..
         </div>
+        <footer>
+            <slot name="footer"></slot>
+        </footer>
     </div>
 </template>
 
