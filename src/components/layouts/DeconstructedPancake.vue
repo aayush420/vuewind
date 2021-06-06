@@ -15,6 +15,7 @@
 </template>
 
 <script>
+// 02. Deconstructed Pancake https://1linelayouts.glitch.me/
 export default {};
 </script>
 
