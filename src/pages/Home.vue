@@ -27,6 +27,7 @@
         />
         <VDeconstructedPancake />
         <VSidebarSays />
+        <VPancakeStack class="my-2" />
     </div>
 </template>
 
@@ -42,6 +43,7 @@ import VRadio from "../components/Radio.vue";
 import VSelect from "../components/Select.vue";
 import VDeconstructedPancake from "../components/layouts/DeconstructedPancake.vue";
 import VSidebarSays from "../components/layouts/SidebarSays.vue";
+import VPancakeStack from "../components/layouts/PancakeStack.vue";
 export default {
     components: {
         HelloWorld,
@@ -56,6 +58,7 @@ export default {
 
         VDeconstructedPancake,
         VSidebarSays,
+        VPancakeStack,
     },
     data() {
         return {
