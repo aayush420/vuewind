@@ -1,22 +1,37 @@
 <template>
     <button
-        class="
+        :class="`
             text-white
-            bg-indigo-500
+            bg-${color}-500
             border-0
             py-1
             px-6
             focus:outline-none
-            hover:bg-indigo-600
-            active:bg-indigo-700
+            hover:bg-${color}-600
+            active:bg-${color}-700
             rounded
-            shadow-lg
-        "
-    ></button>
+            shadow-lg`"
+    >
+        <slot></slot>
+    </button>
 </template>
 
 <script>
-export default {};
+export default {
+    props: {
+        primary: Boolean,
+        success: Boolean,
+        danger: Boolean,
+    },
+    computed: {
+        color() {
+            if (this.primary) return "indigo";
+            else if (this.success) return "green";
+            else if (this.danger) return "red";
+            else return "indigo";
+        },
+    },
+};
 </script>
 
 <style>
