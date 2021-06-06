@@ -22,7 +22,7 @@
             "
             :name="name"
         />
-        Some radio option
+        Some checkbox
     </label>
 </template>
 
