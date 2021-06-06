@@ -25,6 +25,7 @@
             @close="showModal = false"
             v-if="showModal"
         />
+        <deconstructed-pancake />
     </div>
 </template>
 
@@ -38,6 +39,7 @@ import VInput from "../components/Input.vue";
 import VModal from "../components/Modal.vue";
 import VRadio from "../components/Radio.vue";
 import VSelect from "../components/Select.vue";
+import DeconstructedPancake from "../components/layouts/DeconstructedPancake.vue";
 export default {
     components: {
         HelloWorld,
@@ -49,6 +51,8 @@ export default {
         VModal,
         VRadio,
         VSelect,
+
+        DeconstructedPancake,
     },
     data() {
         return {
